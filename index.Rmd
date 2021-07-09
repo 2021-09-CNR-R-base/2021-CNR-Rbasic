@@ -1,0 +1,131 @@
+---
+title: "intRo"
+description: |
+  Corso di Introduzione a R per i ricercatori dell'Istituto per la Protezione Sostenibile delle Piante (IPSP)!
+author:
+  - name: Marco Chiapello 
+    affiliation: IPSP-CNR, Sede di Torino
+    orcid_id: 0000-0001-7768-3047
+    skype: marpello
+
+date: September 10, 2018
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+```
+
+# Introduzione
+
+L' IBiG è lieto di presentare il primo corso di introduzione ad R tenuto dal Gruppo di Bioinformatica dell'Istituto per la Protezione Sostenibile delle Piante.
+
+Gli **obiettivi** del corso sono:
+
+1. dare a tutti i partecipanti le competenze necessarie per utilizzare R
+
+1. importare, manipolare e trasformare tabelle di dati
+
+1. creare visualizzazioni grafiche
+
+1. creare tabelle riassuntive
+
+# About the teacher
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Pre-requisiti
+
+Il corso non prevede **nessun pre-requisito**. Chiunque può partecipare al corso.
+
+# Struttura del corso
+
+Il corso sarà così strutturato:
+
+1. **Lezione teorica** (asincrona): vi verrà chiesto di guardare dei video relativi all'unità didattica. I video saranno presenti online e potranno essere guardati a piacere, purchè prima del corso. 
+
+1. **Lezione pratica** (sincrona): parte frontale del corso, fatta in presenza (virtuale) con l'insegnate. In queste lezioni sarà discusso il contenuto dell'unità didattica, chiariti i possibili dubbi e sarà svolta la parte applicativa del corso, con esercizi (individuali o in gruppo) ed esempi della reale vita.
+
+Il corso sarà diviso in moduli. Per ogni modulo saranno specificati gli obiettivi di apprendimento e vi sarà richiesto di guardare i video relativi all'unità didattica.    
+Prima della lezione frontale vi verrà richiesto di completare una questionario per autovalutare la comprensione della lezione.
+
+## Syllabus
+
+Il corso prevede 6 moduli che trovate riportati qui di seguito. Ogni modulo avrà una pagina dedicata in cui sarà possibile trovare il link a tutti i video, gli script e le risorse per quella specifica unita didattica.
+
+#### **1. [Introduzione a R e RStudio](rSconos.html)**    
+- Installazione dei software    
+- Come utilizzare RStudio    
+
+
+#### **2. [Concetti fondamentali](concFond.html)**
+- Operazioni base in R    
+- Concetto di variabile    
+- Concetto di vettore    
+- Concetto di data.frame    
+- Concetto di tibble    
+
+#### **3. [Importazione/esportazione di dati](io.html)**
+
+#### **4. [Utilizzo delle funzioni in R](fx.html)**   
+- Cosa sono le funzioni di R e dei pacchetti di R    
+- Come si utilizzano    
+
+#### **5. [Trasformazione dei dati](wrangle.html)**
+- Subset dei dati    
+- Creare nuove variabili    
+- Split-apply-combine    
+- Long and wide data format    
+
+#### **6. [Esplorazione grafica dei dati](plot.html)**    
+- Importanza delle visualizzazioni grafiche (datasaurus package)    
+- Grafici base    
+- Grafici per serie temporali    
+- Multi-plots        
+- Combine plots    
+
+
+# Preparazione al corso
+
+In preparazione alle lezioni frontali, dovrete installare sul vostro computer due software: R e RStudio. Potete trovare una spiegazione dettagliata di come fare [qui](rSconos.html). Qui sotto sono riportati i link che vi serviranno per scaricare i software necessari. In alternativa è possibile utilizzare RStudio cloud, questo servizio permette di usare R e RStudio sul web senza la necessità di installazione sul vostro computer. L'utilizzo è gratuito, ma può essere usato solo per 16 ore al mese. 
+
+## Software necessari
+
+1. [R](https://cran.r-project.org/)
+
+1. [RStudio](https://www.rstudio.com/) 
+
+o in alternativa creare un account su [RStudio Cloud](https://rstudio.cloud/plans/free)
+
+# Risorse utili
+
+- 
+
+
+
+# Codice di Condotta
+
+Ci impegniamo a fornire un ambiente accogliente e solidale per tutte le persone, indipendentemente dal background o dall'identità. Partecipando a questa comunità, i partecipanti accettano di rispettare il Codice di Condotta (CdC). Qualsiasi forma di comportamento per escludere, intimidire o causare disagio costituisce una violazione del CdC. Al fine di promuovere un ambiente di apprendimento positivo e professionale, incoraggiamo i seguenti tipi di comportamenti:
+
+- Usa un linguaggio accogliente e inclusivo
+
+- Sii rispettoso dei diversi punti di vista
+
+- Accetta con garbo le critiche costruttive
+
+- Concentrati su ciò che è meglio per la classe
+
+- Mostra cortesia e rispetto verso gli altri membri della classe 
+     
+     
+# Licenza
+
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt)
+
