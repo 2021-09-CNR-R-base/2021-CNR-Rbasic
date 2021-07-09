@@ -1,0 +1,77 @@
+---
+title: "intRo"
+author: 
+  - "Marco Chiapello"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1381B0",
+  secondary_color = "#FF961C",
+  inverse_header_color = "#FFFFFF",
+  base_font_size = "30px",
+  header_font_google = google_font("Josefin Slab", "600"),
+  text_font_google = google_font("Roboto", "300"),
+  extra_fonts = list(
+    google_font("Sofia"),
+    # Young Serif by uplaod.fr
+    "https://cdn.jsdelivr.net/gh/uplaod/YoungSerif/fonts/webfonts/fontface.css"
+  ),
+  extra_css = list(
+    ".marco" = list("font-family" = "Sofia")
+  )
+)
+
+library(xaringanExtra)
+use_tile_view() 
+xaringanExtra::use_logo(
+  image_url = "https://raw.githubusercontent.com/rstudio/hex-stickers/master/PNG/xaringan.png"
+)
+use_search(show_icon = FALSE)
+```
+
+## About the teacher
+
+.pull-left[
+
+- Marco Chiapello, PhD
+
+- Plant Biologist `r fontawesome::fa("seedling", fill = "#25403B")`
+
+- Bioinformatician `r fontawesome::fa("laptop", fill = "black")`
+
+- R addicted `r fontawesome::fa("registered", fill = "black")`
+
+- Deeply in love with teaching `r fontawesome::fa("chalkboard-teacher", fill = "black")`
+]
+
+.pull-right[
+.fl[
+```{r out.width="60%"}
+knitr::include_graphics("images/MC_bn.JPEG")
+```
+]
+]
