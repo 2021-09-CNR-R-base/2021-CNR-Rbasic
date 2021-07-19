@@ -50,9 +50,9 @@ Il corso non prevede **nessun pre-requisito**. Chiunque può partecipare al cors
 
 Il corso sarà così strutturato:
 
-1. **Lezione teorica** (asincrona): vi verrà chiesto di guardare dei video relativi all'unità didattica. I video saranno presenti online e potranno essere guardati a piacere, purchè prima del corso. 
+1. **Lezione teorica** (asincrona): vi verrà chiesto di guardare dei video relativi all'unità didattica. I video saranno presenti online e potranno essere guardati a piacere, purchè prima delle lezioni pratiche.
 
-1. **Lezione pratica** (sincrona): parte frontale del corso, fatta in presenza (virtuale) con l'insegnate. In queste lezioni sarà discusso il contenuto dell'unità didattica, chiariti i possibili dubbi e sarà svolta la parte applicativa del corso, con esercizi (individuali o in gruppo) ed esempi della reale vita.
+1. **Lezione pratica** (sincrona): parte frontale del corso, fatta in presenza (virtuale) con l'insegnante. In queste lezioni sarà discusso il contenuto dell'unità didattica, chiariti i possibili dubbi e sarà svolta la parte applicativa del corso, con esercizi (individuali o in gruppo) ed esempi pratici.
 
 Il corso sarà diviso in moduli. Per ogni modulo saranno specificati gli obiettivi di apprendimento e vi sarà richiesto di guardare i video relativi all'unità didattica.    
 Prima della lezione frontale vi verrà richiesto di completare una questionario per autovalutare la comprensione della lezione.
@@ -99,34 +99,36 @@ In preparazione alle lezioni frontali, dovrete installare sul vostro computer du
 
 ## Software necessari
 
-1. [R](https://cran.r-project.org/)
+1. [Slack](https://slack.com/intl/it-it/): Slack è un'app di messaggistica. Il workspace del corso è raggiungibile [cliccando qui](https://join.slack.com/t/2021-cnr-r-base/shared_invite/zt-t6smt82o-xRjl8EHmM5VrQStsRKyaIg)
 
-1. [RStudio](https://www.rstudio.com/) 
+1. [R](https://cran.r-project.org/): R è un linguaggio di programmazione e un ambiente di sviluppo specifico per l'analisi statistica dei dati
+
+1. [RStudio](https://www.rstudio.com/): RStudio è un ambiente di sviluppo integrato per R
 
 o in alternativa creare un account su [RStudio Cloud](https://rstudio.cloud/plans/free)
 
 # Risorse utili
 
-## Repositories:
+### Repositories
 * [Teaching material](https://github.com/lgatto/TeachingMaterial) - from Laurent Gatto
 * [Reproducible Research](https://github.com/KirstieJane/ReproducibleResearch)
 * [Software carpentry](https://github.com/swcarpentry/)
 * [Data carpentry](https://github.com/datacarpentry)
 
 
-## Books:
+### Books
 * [R bookdown](https://bookdown.org/) - collaborative book website
 * [Tidyverse Cookbook](https://bookdown.org/Tazinho/Tidyverse-Cookbook/)
 * [Modern R](https://b-rodrigues.github.io/modern_R/)
 
 
-## Papers:
+### Papers
 * [Ten Simple Rules for Taking Advantage of Git and GitHub](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947)
 * [Ten Simple Rules for Reproducible Computational Research](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285)
 * [The Practice of Reproducible Research](https://www.practicereproducibleresearch.org/#)
 
 
-## Website
+### Website
 * [Ten simple rules](http://collections.plos.org/ten-simple-rules)
 * [Points of significance](http://www.nature.com/collections/qghhqm/pointsofsignificance)
 * [Reproducible research](https://cran.r-project.org/web/views/ReproducibleResearch.html) - CRAN Task View
@@ -143,29 +145,11 @@ o in alternativa creare un account su [RStudio Cloud](https://rstudio.cloud/plan
 * [R visualization Claus Wilke](https://wilkelab.org/SDS375/schedule.html)
 
 
-## Miscellaneous
+### Miscellaneous
 * [Reproducible research](https://www.coursera.org/learn/reproducible-research) - Coursera course
 * [Exercism](http://exercism.io/) - Level up your programming skills
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 * [Bad publishing and bullied into bad science](https://lgatto.github.io/beyond-bad-publishing/)
-
-
-## Potentially useful R packages
-* [esquisse](https://cran.r-project.org/web/packages/esquisse/readme/README.html)
-* [ggThemeAssistant](https://github.com/calligross/ggthemeassist)
-* [Swirl](http://swirlstats.com/) - Learn R in R
-
-
-
-## Cheatsheets
-* [UNIX](https://www.git-tower.com/learn/cheat-sheets/cli)
-* [dplyr](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
-* [ggplot2](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
-* [Rmarkdown](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
-* [Git](https://www.git-tower.com/learn/cheat-sheets/git)
-* [Version control workflow](https://www.git-tower.com/learn/cheat-sheets/vcs-workflow)
-
-
 
 # Codice di Condotta
 

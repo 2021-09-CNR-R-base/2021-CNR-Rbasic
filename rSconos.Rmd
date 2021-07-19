@@ -1,6 +1,6 @@
 ---
 title: "Introduzione a R e RStudio"
-output: 
+output:
   distill::distill_article:
     toc: false
 ---
