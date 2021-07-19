@@ -23,7 +23,6 @@
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
@@ -2080,9 +2079,10 @@ Moduli
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="rSconos.html"> Introduzione a R e RStudio</a>
+<a href="install.html">Installazione dei software</a>
+<a href="rSconos.html">Introduzione a R e RStudio</a>
 <span class="nav-dropdown-header">Le basi di R e RStudio</span>
-<span class="nav-dropdown-header">R è un preogramma vettoriale</span>
+<span class="nav-dropdown-header">R <U+00E8> un preogramma vettoriale</span>
 </div>
 </div>
 <span class="nav-dropdown-header">Contatti</span>
@@ -2125,13 +2125,11 @@ Moduli
 </ul></li>
 <li><a href="#risorse-utili">Risorse utili</a>
 <ul>
-<li><a href="#repositories">Repositories:</a></li>
-<li><a href="#books">Books:</a></li>
-<li><a href="#papers">Papers:</a></li>
+<li><a href="#repositories">Repositories</a></li>
+<li><a href="#books">Books</a></li>
+<li><a href="#papers">Papers</a></li>
 <li><a href="#website">Website</a></li>
 <li><a href="#miscellaneous">Miscellaneous</a></li>
-<li><a href="#potentially-useful-r-packages">Potentially useful R packages</a></li>
-<li><a href="#cheatsheets">Cheatsheets</a></li>
 </ul></li>
 <li><a href="#codice-di-condotta">Codice di Condotta</a></li>
 <li><a href="#licenza">Licenza</a></li>
@@ -2155,8 +2153,8 @@ Moduli
 <h1 id="struttura-del-corso">Struttura del corso</h1>
 <p>Il corso sarà così strutturato:</p>
 <ol type="1">
-<li><p><strong>Lezione teorica</strong> (asincrona): vi verrà chiesto di guardare dei video relativi all’unità didattica. I video saranno presenti online e potranno essere guardati a piacere, purchè prima del corso.</p></li>
-<li><p><strong>Lezione pratica</strong> (sincrona): parte frontale del corso, fatta in presenza (virtuale) con l’insegnate. In queste lezioni sarà discusso il contenuto dell’unità didattica, chiariti i possibili dubbi e sarà svolta la parte applicativa del corso, con esercizi (individuali o in gruppo) ed esempi della reale vita.</p></li>
+<li><p><strong>Lezione teorica</strong> (asincrona): vi verrà chiesto di guardare dei video relativi all’unità didattica. I video saranno presenti online e potranno essere guardati a piacere, purchè prima delle lezioni pratiche.</p></li>
+<li><p><strong>Lezione pratica</strong> (sincrona): parte frontale del corso, fatta in presenza (virtuale) con l’insegnante. In queste lezioni sarà discusso il contenuto dell’unità didattica, chiariti i possibili dubbi e sarà svolta la parte applicativa del corso, con esercizi (individuali o in gruppo) ed esempi pratici.</p></li>
 </ol>
 <p>Il corso sarà diviso in moduli. Per ogni modulo saranno specificati gli obiettivi di apprendimento e vi sarà richiesto di guardare i video relativi all’unità didattica.<br />
 Prima della lezione frontale vi verrà richiesto di completare una questionario per autovalutare la comprensione della lezione.</p>
@@ -2213,31 +2211,32 @@ Prima della lezione frontale vi verrà richiesto di completare una questionario 
 <p>In preparazione alle lezioni frontali, dovrete installare sul vostro computer due software: R e RStudio. Potete trovare una spiegazione dettagliata di come fare <a href="rSconos.html">qui</a>. Qui sotto sono riportati i link che vi serviranno per scaricare i software necessari. In alternativa è possibile utilizzare RStudio cloud, questo servizio permette di usare R e RStudio sul web senza la necessità di installazione sul vostro computer. L’utilizzo è gratuito, ma può essere usato solo per 16 ore al mese.</p>
 <h2 id="software-necessari">Software necessari</h2>
 <ol type="1">
-<li><p><a href="https://cran.r-project.org/">R</a></p></li>
-<li><p><a href="https://www.rstudio.com/">RStudio</a></p></li>
+<li><p><a href="https://slack.com/intl/it-it/">Slack</a>: Slack è un’app di messaggistica. Il workspace del corso è raggiungibile <a href="https://join.slack.com/t/2021-cnr-r-base/shared_invite/zt-t6smt82o-xRjl8EHmM5VrQStsRKyaIg">cliccando qui</a></p></li>
+<li><p><a href="https://cran.r-project.org/">R</a>: R è un linguaggio di programmazione e un ambiente di sviluppo specifico per l’analisi statistica dei dati</p></li>
+<li><p><a href="https://www.rstudio.com/">RStudio</a>: RStudio è un ambiente di sviluppo integrato per R</p></li>
 </ol>
 <p>o in alternativa creare un account su <a href="https://rstudio.cloud/plans/free">RStudio Cloud</a></p>
 <h1 id="risorse-utili">Risorse utili</h1>
-<h2 id="repositories">Repositories:</h2>
+<h3 id="repositories">Repositories</h3>
 <ul>
 <li><a href="https://github.com/lgatto/TeachingMaterial">Teaching material</a> - from Laurent Gatto</li>
 <li><a href="https://github.com/KirstieJane/ReproducibleResearch">Reproducible Research</a></li>
 <li><a href="https://github.com/swcarpentry/">Software carpentry</a></li>
 <li><a href="https://github.com/datacarpentry">Data carpentry</a></li>
 </ul>
-<h2 id="books">Books:</h2>
+<h3 id="books">Books</h3>
 <ul>
 <li><a href="https://bookdown.org/">R bookdown</a> - collaborative book website</li>
 <li><a href="https://bookdown.org/Tazinho/Tidyverse-Cookbook/">Tidyverse Cookbook</a></li>
 <li><a href="https://b-rodrigues.github.io/modern_R/">Modern R</a></li>
 </ul>
-<h2 id="papers">Papers:</h2>
+<h3 id="papers">Papers</h3>
 <ul>
 <li><a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947">Ten Simple Rules for Taking Advantage of Git and GitHub</a></li>
 <li><a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285">Ten Simple Rules for Reproducible Computational Research</a></li>
 <li><a href="https://www.practicereproducibleresearch.org/#">The Practice of Reproducible Research</a></li>
 </ul>
-<h2 id="website">Website</h2>
+<h3 id="website">Website</h3>
 <ul>
 <li><a href="http://collections.plos.org/ten-simple-rules">Ten simple rules</a></li>
 <li><a href="http://www.nature.com/collections/qghhqm/pointsofsignificance">Points of significance</a></li>
@@ -2254,27 +2253,12 @@ Prima della lezione frontale vi verrà richiesto di completare una questionario 
 <li><a href="https://style.tidyverse.org/">R style guide</a></li>
 <li><a href="https://wilkelab.org/SDS375/schedule.html">R visualization Claus Wilke</a></li>
 </ul>
-<h2 id="miscellaneous">Miscellaneous</h2>
+<h3 id="miscellaneous">Miscellaneous</h3>
 <ul>
 <li><a href="https://www.coursera.org/learn/reproducible-research">Reproducible research</a> - Coursera course</li>
 <li><a href="http://exercism.io/">Exercism</a> - Level up your programming skills</li>
 <li><a href="https://www.codewars.com/">Codewars</a> - Improve your skills by training with others on real code challenges</li>
 <li><a href="https://lgatto.github.io/beyond-bad-publishing/">Bad publishing and bullied into bad science</a></li>
-</ul>
-<h2 id="potentially-useful-r-packages">Potentially useful R packages</h2>
-<ul>
-<li><a href="https://cran.r-project.org/web/packages/esquisse/readme/README.html">esquisse</a></li>
-<li><a href="https://github.com/calligross/ggthemeassist">ggThemeAssistant</a></li>
-<li><a href="http://swirlstats.com/">Swirl</a> - Learn R in R</li>
-</ul>
-<h2 id="cheatsheets">Cheatsheets</h2>
-<ul>
-<li><a href="https://www.git-tower.com/learn/cheat-sheets/cli">UNIX</a></li>
-<li><a href="https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">dplyr</a></li>
-<li><a href="https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf">ggplot2</a></li>
-<li><a href="https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf">Rmarkdown</a></li>
-<li><a href="https://www.git-tower.com/learn/cheat-sheets/git">Git</a></li>
-<li><a href="https://www.git-tower.com/learn/cheat-sheets/vcs-workflow">Version control workflow</a></li>
 </ul>
 <h1 id="codice-di-condotta">Codice di Condotta</h1>
 <p>Ci impegniamo a fornire un ambiente accogliente e solidale per tutte le persone, indipendentemente dal background o dall’identità. Partecipando a questa comunità, i partecipanti accettano di rispettare il Codice di Condotta (CdC). Qualsiasi forma di comportamento per escludere, intimidire o causare disagio costituisce una violazione del CdC. Al fine di promuovere un ambiente di apprendimento positivo e professionale, incoraggiamo i seguenti tipi di comportamenti:</p>

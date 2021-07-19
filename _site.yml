@@ -12,7 +12,9 @@ navbar:
       href: index.html
     - text: "Moduli"
       menu:
-        - text: " Introduzione a R e RStudio"
+        - text: "Installazione dei software"
+          href: install.html
+        - text: "Introduzione a R e RStudio"
           href: rSconos.html
         - text: "Le basi di R e RStudio"
         - text: "R è un preogramma vettoriale"
