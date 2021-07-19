@@ -142,14 +142,14 @@ knitr::include_graphics("images/MC_bn.JPEG")
 .panel[.panel-name[Obiettivo 3]
 
 <br><br>
-.content-box[.f60[creare visualizzazioni grafiche]]
+.content-box[.f60[creare tabelle riassuntive]]
 
 ]
 
 .panel[.panel-name[Obiettivo 4]
 
 <br><br>
-.content-box[.f60[creare tabelle riassuntive]]
+.content-box[.f60[creare visualizzazioni grafiche]]
 
 ]
 ]
