@@ -142,14 +142,14 @@ knitr::include_graphics("images/MC_bn.JPEG")
 .panel[.panel-name[Obiettivo 3]
 
 <br><br>
-.content-box[.f60[creare visualizzazioni grafiche]]
+.content-box[.f60[creare tabelle riassuntive]]
 
 ]
 
 .panel[.panel-name[Obiettivo 4]
 
 <br><br>
-.content-box[.f60[creare tabelle riassuntive]]
+.content-box[.f60[creare visualizzazioni grafiche]]
 
 ]
 ]
@@ -392,28 +392,6 @@ knitr::include_graphics("images/ggplot2_exploratory.png")
 
 ---
 
-## Risorse utili
-
-1. Repositories `r fontawesome::fa("code-branch", fill = "#FF961C")`
-
---
-
-1. Libri `r fontawesome::fa("book", fill = "#FF961C")`
-
---
-
-1. Articoli `r fontawesome::fa("copy", fill = "#FF961C")`
-
---
-
-1. Siti `r fontawesome::fa("file", fill = "#FF961C")`
-
---
-
-1. Miscellaneous `r fontawesome::fa("stream", fill = "#FF961C")`
-
----
-
 ## Codice di condotta
 
 .pull-left[
@@ -483,7 +461,7 @@ i **partecipanti accettano di rispettare il Codice di Condotta** (CdC).]
 class: middle center
 
 ## Licenza del corso
-
+.center[Apache License Version 2.0]
 ```{r out.width="100%"}
 knitr::include_graphics("images/Screenshot 2021-07-12 at 11.26.53.png")
 ```

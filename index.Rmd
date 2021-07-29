@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Presentazione del corso
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="951" height="535" src="https://www.youtube.com/embed/38bFUlxlef8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Introduzione
 
@@ -36,9 +36,9 @@ Gli **obiettivi** del corso sono:
 
 1. importare, manipolare e trasformare tabelle di dati
 
-1. creare visualizzazioni grafiche
-
 1. creare tabelle riassuntive
+
+1. creare visualizzazioni grafiche
 
 
 

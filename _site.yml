@@ -15,11 +15,16 @@ navbar:
         - text: "Installazione dei software"
           href: install.html
         - text: "Introduzione a R e RStudio"
-          href: rSconos.html
+          #href: rSconos.html
         - text: "Le basi di R e RStudio"
-        - text: "R è un preogramma vettoriale"
+        - text: "Concetti fondamentali"
+        - text: "Importazione/esportazione di dati"
+        - text: "Utilizzo delle funzioni in R"
+        - text: "Trasformazione dei dati"
+        - text: "Esplorazione grafica dei dati"
     - text: "Contatti"
 
 output: 
   distill::distill_article:
     toc: true
+    css: theme.css

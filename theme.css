@@ -76,3 +76,20 @@ d-appendix {
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
 
+.button {
+  border: 1px solid black;
+  background-color: #0F2E3D;
+  border-radius: 4px;
+  padding: 5px 8px;
+  text-align: center;
+  width: 50%;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
