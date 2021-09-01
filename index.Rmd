@@ -20,17 +20,17 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Learn more about publishing to GitHub Pages at:
 # https://rstudio.github.io/distill/publish_website.html#github-pages
+# rmarkdown::render_site("index.Rmd")
 ```
-
-# Presentazione del corso
-
-<iframe width="951" height="535" src="https://www.youtube.com/embed/38bFUlxlef8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Introduzione
 
-L' IBiG è lieto di presentare il primo corso di introduzione ad R tenuto dal Gruppo di Bioinformatica dell'Istituto per la Protezione Sostenibile delle Piante.
+Il Gruppo di Bioinformatica dell'Istituto per la Protezione Sostenibile delle Piante (**IBiG**) è lieto di presentare il primo corso di introduzione ad R.
 
-Gli **obiettivi** del corso sono:
+<iframe width="951" height="535" src="https://www.youtube.com/embed/38bFUlxlef8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+# Obiettivi del corso
 
 1. dare a tutti i partecipanti le competenze necessarie per utilizzare R
 
@@ -40,6 +40,9 @@ Gli **obiettivi** del corso sono:
 
 1. creare visualizzazioni grafiche
 
+**Guarda il video per capire cosa imparerai a fare!**
+
+<iframe width="951" height="535" src="https://www.youtube.com/embed/38bFUlxlef8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 # Pre-requisiti
