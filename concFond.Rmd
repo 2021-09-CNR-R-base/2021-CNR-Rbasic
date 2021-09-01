@@ -1,0 +1,45 @@
+---
+title: "Concetti base"
+output:
+  distill::distill_article:
+    toc: false
+---
+
+## Obiettivi formativi
+
+1. Operazioni base in R    
+1. Concetto di variabile    
+1. Concetto di vettore    
+1. Concetto di data.frame    
+1. Concetto di tibble    
+
+----
+
+## Operazioni base in R
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Concetto di variabile
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Concetto di vettore
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Concetto di data.frame    
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Concetto di tibble    
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+----
+
+## Valutazione formativa
+
+Clicca sul seguente pulsante per eseguire il test formativo:
+
+<a href='https://forms.gle/v3JbyCVUvEdpCAmx5' target='\_blank' class='button'>LINK</a>
+
