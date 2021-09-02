@@ -2030,7 +2030,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2175,10 +2175,9 @@ Moduli
 <a href="install.html">Installazione dei software</a>
 <a href="rSconos.html">Introduzione a R e RStudio</a>
 <a href="concFond.html">Concetti base</a>
-<span class="nav-dropdown-header">Importazione/esportazione di dati</span>
-<span class="nav-dropdown-header">Utilizzo delle funzioni in R</span>
-<span class="nav-dropdown-header">Trasformazione dei dati</span>
-<span class="nav-dropdown-header">Esplorazione grafica dei dati</span>
+<a href="io.html">Importazione/esportazione di dati</a>
+<a href="wrangle.html">Trasformazione dei dati</a>
+<a href="plot.html">Esplorazione grafica dei dati</a>
 </div>
 </div>
 <span class="nav-dropdown-header">Contatti</span>
@@ -2214,6 +2213,14 @@ Moduli
 </li>
 <li>Concetto di tibble</li>
 </ol>
+<h2 id="in-caso-di-necessità">In caso di necessità</h2>
+<p>In caso di problemi o domande non esitare a confrontarti con i tuoi colleghi, a scrivere sul canale <a href="https://2021-cnr-r-base.slack.com/archives/C02DE4EB1L4">Help</a> di Slack o a me in <a href="https://2021-cnr-r-base.slack.com/archives/D027RRHFYSX">privato</a>.</p>
+<h2 id="formative-assessments">Formative assessments</h2>
+<p>Per poter eseguire gli esercizi da RStudio installa il pacchetto “intRo.Esercizi” con i seguenti comandi:<br />
+&gt; install.packages(“devtools”)<br />
+&gt; install.packages(“learnr”)<br />
+&gt; library(devtools) &gt; install_github(“2021-09-CNR-R-base/intRo.Esercizi”)</p>
+<p>Formative assessments: l’obiettivo di questi esercizi è darvi la possibilità di capire i vostri progressi. Gli esercizi verranno visti solo da voi e verrà sempre data la possibilità di vedere la corretta soluzione. Non è obbligatorio fare gli esercizi, ma è ovviamente consigliato.</p>
 <hr />
 <h2 id="operazioni-base-in-r">Operazioni base in R</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -2221,19 +2228,43 @@ Moduli
 <h2 id="concetto-di-variabile">Concetto di variabile</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
+<h3 id="variabile-concept-map">Variabile concept map</h3>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/variable.jpg" width="478" style="display: block; margin: auto;" /></p>
+</div>
+<p><a href=images/variable.pdf>Per scaricare la mappa in pdf, clicca su questo link</a></p>
 <h2 id="concetto-di-vettore">Concetto di vettore</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
+<h3 id="vettore-concept-map">Vettore concept map</h3>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/vector.jpg" width="746" style="display: block; margin: auto;" /></p>
+</div>
+<p><a href=images/vector.pdf>Per scaricare la mappa in pdf, clicca su questo link</a></p>
 <h2 id="concetto-di-data.frame">Concetto di data.frame</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
+<h3 id="data.frame-concept-map">data.frame concept map</h3>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/Dataframe.jpg" width="630" style="display: block; margin: auto;" /></p>
+</div>
+<p><a href=images/Dataframe.pdf>Per scaricare la mappa in pdf, clicca su questo link</a></p>
 <h2 id="concetto-di-tibble">Concetto di tibble</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
+<h3 id="tibble-concept-map">Tibble concept map</h3>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/tibble.jpg" width="743" style="display: block; margin: auto;" /></p>
+</div>
+<p><a href=images/tibble.pdf>Per scaricare la mappa in pdf, clicca su questo link</a></p>
 <hr />
-<h2 id="valutazione-formativa">Valutazione formativa</h2>
-<p>Clicca sul seguente pulsante per eseguire il test formativo:</p>
-<p><a href='https://forms.gle/v3JbyCVUvEdpCAmx5' target='\_blank' class='button'>LINK</a></p>
+<h2 id="summative-assessment">Summative assessment</h2>
+<p>Da RStudio installa il pacchetto “intRo.Esercizi” con i seguenti comandi:<br />
+&gt; install.packages(“devtools”)<br />
+&gt; install.packages(“learnr”)<br />
+&gt; devtools::install_github(“2021-09-CNR-R-base/intRo.Esercizi”)<br />
+&gt; learnr::run_tutorial(“lezione_02”, package = “intRo.Esercizi”)</p>
+<p>Esegui tutti gli esercizi e sottometti i risultati come spiegato nell’ultima pagina del test.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

@@ -12,8 +12,8 @@
       "path": "concFond.html",
       "title": "Concetti base",
       "author": [],
-      "contents": "\n\n\n\nObiettivi formativi\nOperazioni base in R\nConcetto di variabile\nConcetto di vettore\nConcetto di data.frame\nConcetto di tibble\nOperazioni base in R\n\n\nConcetto di variabile\n\n\nConcetto di vettore\n\n\nConcetto di data.frame\n\n\nConcetto di tibble\n\n\nValutazione formativa\nClicca sul seguente pulsante per eseguire il test formativo:\nLINK\n\n\n\n",
-      "last_modified": "2021-09-01T14:10:24+02:00"
+      "contents": "\n\n\n\nObiettivi formativi\nOperazioni base in R\nConcetto di variabile\nConcetto di vettore\nConcetto di data.frame\nConcetto di tibble\nIn caso di necessità\nIn caso di problemi o domande non esitare a confrontarti con i tuoi colleghi, a scrivere sul canale Help di Slack o a me in privato.\nFormative assessments\nPer poter eseguire gli esercizi da RStudio installa il pacchetto “intRo.Esercizi” con i seguenti comandi:\n> install.packages(“devtools”)\n> install.packages(“learnr”)\n> library(devtools) > install_github(“2021-09-CNR-R-base/intRo.Esercizi”)\nFormative assessments: l’obiettivo di questi esercizi è darvi la possibilità di capire i vostri progressi. Gli esercizi verranno visti solo da voi e verrà sempre data la possibilità di vedere la corretta soluzione. Non è obbligatorio fare gli esercizi, ma è ovviamente consigliato.\nOperazioni base in R\n\n\nConcetto di variabile\n\n\nVariabile concept map\n\n\n\nPer scaricare la mappa in pdf, clicca su questo link\nConcetto di vettore\n\n\nVettore concept map\n\n\n\nPer scaricare la mappa in pdf, clicca su questo link\nConcetto di data.frame\n\n\ndata.frame concept map\n\n\n\nPer scaricare la mappa in pdf, clicca su questo link\nConcetto di tibble\n\n\nTibble concept map\n\n\n\nPer scaricare la mappa in pdf, clicca su questo link\nSummative assessment\nDa RStudio installa il pacchetto “intRo.Esercizi” con i seguenti comandi:\n> install.packages(“devtools”)\n> install.packages(“learnr”)\n> devtools::install_github(“2021-09-CNR-R-base/intRo.Esercizi”)\n> learnr::run_tutorial(“lezione_02”, package = “intRo.Esercizi”)\nEsegui tutti gli esercizi e sottometti i risultati come spiegato nell’ultima pagina del test.\n\n\n\n",
+      "last_modified": "2021-09-02T17:37:33+02:00"
     },
     {
       "path": "index.html",
@@ -40,8 +40,8 @@
       "path": "rSconos.html",
       "title": "Introduzione a R e RStudio",
       "author": [],
-      "contents": "\nObiettivi formativi\nCos’è R\nQuali sono le potenzialità di R\nCos’è RStudio e perchè usarlo\nCome funziona RStudio\nCos’è R\n\n\nQuali sono le potenzialità di R\n\n\nCos’è RStudio e perchè usarlo\n\n\nCome funziona RStudio\n\n\nValutazione formativa\nClicca sul seguente pulsante per eseguire il test formativo:\nLINK\n\n\n\n",
-      "last_modified": "2021-07-20T13:57:44+02:00"
+      "contents": "\nObiettivi formativi\nCos’è R\nQuali sono le potenzialità di R\nCos’è RStudio e perchè usarlo\nCome funziona RStudio\n\n\n\nCos’è R\n\n\nR concept map\n\n\n\nPer scaricare la mappa in pdf, clicca su questo link\nQuali sono le potenzialità di R\n\n\nCos’è RStudio e perchè usarlo\n\n\nCome funziona RStudio\n\n\nValutazione formativa\nClicca sul seguente pulsante per eseguire il test formativo:\nLINK\n\n\n\n",
+      "last_modified": "2021-09-02T15:56:29+02:00"
     }
   ],
   "collections": []
