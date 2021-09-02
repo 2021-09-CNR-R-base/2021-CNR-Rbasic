@@ -86,33 +86,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>intRo</title>
-
-  <meta property="description" itemprop="description" content="Corso di Introduzione a R per i ricercatori dell&#39;Istituto per la Protezione Sostenibile delle Piante (IPSP)!"/>
+  <title>intRo: Concetti base</title>
 
 
-  <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-10-20"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-10-20"/>
-  <meta name="article:author" content="Marco Chiapello"/>
+
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="intRo"/>
+  <meta property="og:title" content="intRo: Concetti base"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Corso di Introduzione a R per i ricercatori dell&#39;Istituto per la Protezione Sostenibile delle Piante (IPSP)!"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="intRo"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="intRo"/>
-  <meta property="twitter:description" content="Corso di Introduzione a R per i ricercatori dell&#39;Istituto per la Protezione Sostenibile delle Piante (IPSP)!"/>
+  <meta property="twitter:title" content="intRo: Concetti base"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","site"]}},"value":[{"type":"character","attributes":{},"value":["intRo"]},{"type":"character","attributes":{},"value":["Corso di Introduzione a R per i ricercatori dell'Istituto per la Protezione Sostenibile delle Piante (IPSP)!\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","affiliation","orcid_id","skype"]}},"value":[{"type":"character","attributes":{},"value":["Marco Chiapello"]},{"type":"character","attributes":{},"value":["IPSP-CNR, Sede di Torino"]},{"type":"character","attributes":{},"value":["0000-0001-7768-3047"]},{"type":"character","attributes":{},"value":["marpello"]}]}]},{"type":"character","attributes":{},"value":["october 20, 2021"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","output"]}},"value":[{"type":"character","attributes":{},"value":["Concetti base"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2156,7 +2149,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"intRo","description":"Corso di Introduzione a R per i ricercatori dell'Istituto per la Protezione Sostenibile delle Piante (IPSP)!","authors":[{"author":"Marco Chiapello","authorURL":"#","affiliation":"IPSP-CNR, Sede di Torino","affiliationURL":"#","orcidID":"0000-0001-7768-3047"}],"publishedDate":"2021-10-20T00:00:00.000+00:00","citationText":"Chiapello, 2021"}
+{"title":"Concetti base","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2182,9 +2175,10 @@ Moduli
 <a href="install.html">Installazione dei software</a>
 <a href="rSconos.html">Introduzione a R e RStudio</a>
 <a href="concFond.html">Concetti base</a>
-<a href="io.html">Importazione/esportazione di dati</a>
-<a href="wrangle.html">Trasformazione dei dati</a>
-<a href="plot.html">Esplorazione grafica dei dati</a>
+<span class="nav-dropdown-header">Importazione/esportazione di dati</span>
+<span class="nav-dropdown-header">Utilizzo delle funzioni in R</span>
+<span class="nav-dropdown-header">Trasformazione dei dati</span>
+<span class="nav-dropdown-header">Esplorazione grafica dei dati</span>
 </div>
 </div>
 <span class="nav-dropdown-header">Contatti</span>
@@ -2197,83 +2191,19 @@ Moduli
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>intRo</h1>
+<h1>Concetti base</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Corso di Introduzione a R per i ricercatori dell’Istituto per la Protezione Sostenibile delle Piante (IPSP)!</p></p>
+
 </div>
 
-<div class="d-byline">
-  Marco Chiapello  (IPSP-CNR, Sede di Torino)
-  
-<br/>october 20, 2021
-</div>
 
 <div class="d-article">
-<div class="d-contents d-contents-float">
-<nav class="l-text toc figcaption" id="TOC">
-<h3>Contents</h3>
-<ul>
-<li><a href="#introduzione">Introduzione</a></li>
-<li><a href="#obiettivi-del-corso">Obiettivi del corso</a></li>
-<li><a href="#pre-requisiti">Pre-requisiti</a></li>
-<li><a href="#struttura-del-corso">Struttura del corso</a>
-<ul>
-<li><a href="#syllabus">Syllabus</a></li>
-</ul></li>
-<li><a href="#preparazione-al-corso">Preparazione al corso</a>
-<ul>
-<li><a href="#software-necessari">Software necessari</a></li>
-</ul></li>
-<li><a href="#risorse-utili">Risorse utili</a>
-<ul>
-<li><a href="#repositories">Repositories</a></li>
-<li><a href="#books">Books</a></li>
-<li><a href="#papers">Papers</a></li>
-<li><a href="#website">Website</a></li>
-<li><a href="#miscellaneous">Miscellaneous</a></li>
-</ul></li>
-<li><a href="#codice-di-condotta">Codice di Condotta</a></li>
-<li><a href="#licenza">Licenza</a></li>
-</ul>
-</nav>
+<div class="layout-chunk" data-layout="l-body">
+
 </div>
-<h1 id="introduzione">Introduzione</h1>
-<p>Il Gruppo di Bioinformatica dell’Istituto per la Protezione Sostenibile delle Piante (<strong>IBiG</strong>) è lieto di presentare il primo corso di introduzione ad R.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hAL6TSQS7IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-<h1 id="obiettivi-del-corso">Obiettivi del corso</h1>
+<h2 id="obiettivi-formativi">Obiettivi formativi</h2>
 <ol type="1">
-<li><p>dare a tutti i partecipanti le competenze necessarie per utilizzare R</p></li>
-<li><p>importare, manipolare e trasformare tabelle di dati</p></li>
-<li><p>creare tabelle riassuntive</p></li>
-<li><p>creare visualizzazioni grafiche</p></li>
-</ol>
-<p><strong>Guarda il video per capire cosa imparerai a fare!</strong></p>
-<iframe width="951" height="535" src="https://www.youtube.com/embed/38bFUlxlef8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-<h1 id="pre-requisiti">Pre-requisiti</h1>
-<p>Il corso non prevede <strong>nessun pre-requisito</strong>. Chiunque può partecipare al corso.</p>
-<h1 id="struttura-del-corso">Struttura del corso</h1>
-<p>Il corso sarà così strutturato:</p>
-<ol type="1">
-<li><p><strong>Lezione teorica</strong> (asincrona): vi verrà chiesto di guardare dei video relativi all’unità didattica. I video saranno presenti online e potranno essere guardati a piacere, purchè prima delle lezioni pratiche.</p></li>
-<li><p><strong>Lezione pratica</strong> (sincrona): parte frontale del corso, fatta in presenza (virtuale) con l’insegnante. In queste lezioni sarà discusso il contenuto dell’unità didattica, chiariti i possibili dubbi e sarà svolta la parte applicativa del corso, con esercizi (individuali o in gruppo) ed esempi pratici.</p></li>
-</ol>
-<p>Il corso sarà diviso in moduli. Per ogni modulo saranno specificati gli obiettivi di apprendimento e vi sarà richiesto di guardare i video relativi all’unità didattica.<br />
-Prima della lezione frontale vi verrà richiesto di completare una questionario per autovalutare la comprensione della lezione.</p>
-<h2 id="syllabus">Syllabus</h2>
-<p>Il corso prevede 6 moduli che trovate riportati qui di seguito. Ogni modulo avrà una pagina dedicata in cui sarà possibile trovare il link a tutti i video, gli script e le risorse per quella specifica unita didattica.</p>
-<h4 id="introduzione-a-r-e-rstudio"><strong>1. <a href="rSconos.html">Introduzione a R e RStudio</a></strong></h4>
-<ul>
-<li>Installazione dei software<br />
-</li>
-<li>Come utilizzare RStudio<br />
-</li>
-<li>Come cercare aiuto</li>
-</ul>
-<h4 id="concetti-base"><strong>2. <a href="concFond.html">Concetti base</a></strong></h4>
-<ul>
 <li>Operazioni base in R<br />
 </li>
 <li>Concetto di variabile<br />
@@ -2283,94 +2213,27 @@ Prima della lezione frontale vi verrà richiesto di completare una questionario 
 <li>Concetto di data.frame<br />
 </li>
 <li>Concetto di tibble</li>
-</ul>
-<h4 id="importazioneesportazione-di-dati"><strong>3. <a href="io.html">Importazione/esportazione di dati</a></strong></h4>
-<h4 id="trasformazione-dei-dati"><strong>4. <a href="wrangle.html">Trasformazione dei dati</a></strong></h4>
-<ul>
-<li>Subset dei dati<br />
-</li>
-<li>Creare nuove variabili<br />
-</li>
-<li>Split-apply-combine<br />
-</li>
-<li>Long and wide data format</li>
-</ul>
-<h4 id="esplorazione-grafica-dei-dati"><strong>5. <a href="plot.html">Esplorazione grafica dei dati</a></strong></h4>
-<ul>
-<li>Importanza delle visualizzazioni grafiche (datasaurus package)<br />
-</li>
-<li>Grafici base<br />
-</li>
-<li>Grafici per serie temporali<br />
-</li>
-<li>Multi-plots<br />
-</li>
-<li>Combine plots</li>
-</ul>
-<h1 id="preparazione-al-corso">Preparazione al corso</h1>
-<p>In preparazione alle lezioni frontali, dovrete installare sul vostro computer due software: R e RStudio. Potete trovare una spiegazione dettagliata di come fare <a href="rSconos.html">qui</a>. Qui sotto sono riportati i link che vi serviranno per scaricare i software necessari. In alternativa è possibile utilizzare RStudio cloud, questo servizio permette di usare R e RStudio sul web senza la necessità di installazione sul vostro computer. L’utilizzo è gratuito, ma può essere usato solo per 16 ore al mese.</p>
-<h2 id="software-necessari">Software necessari</h2>
-<ol type="1">
-<li><p><a href="https://slack.com/intl/it-it/">Slack</a>: Slack è un’app di messaggistica. Il workspace del corso è raggiungibile <a href="https://join.slack.com/t/2021-cnr-r-base/shared_invite/zt-t6smt82o-xRjl8EHmM5VrQStsRKyaIg">cliccando qui</a></p></li>
-<li><p><a href="https://cran.r-project.org/">R</a>: R è un linguaggio di programmazione e un ambiente di sviluppo specifico per l’analisi statistica dei dati</p></li>
-<li><p><a href="https://www.rstudio.com/">RStudio</a>: RStudio è un ambiente di sviluppo integrato per R</p></li>
 </ol>
-<p>o in alternativa creare un account su <a href="https://rstudio.cloud/plans/free">RStudio Cloud</a></p>
-<h1 id="risorse-utili">Risorse utili</h1>
-<h3 id="repositories">Repositories</h3>
-<ul>
-<li><a href="https://github.com/lgatto/TeachingMaterial">Teaching material</a> - from Laurent Gatto</li>
-<li><a href="https://github.com/KirstieJane/ReproducibleResearch">Reproducible Research</a></li>
-<li><a href="https://github.com/swcarpentry/">Software carpentry</a></li>
-<li><a href="https://github.com/datacarpentry">Data carpentry</a></li>
-</ul>
-<h3 id="books">Books</h3>
-<ul>
-<li><a href="https://bookdown.org/">R bookdown</a> - collaborative book website</li>
-<li><a href="https://bookdown.org/Tazinho/Tidyverse-Cookbook/">Tidyverse Cookbook</a></li>
-<li><a href="https://b-rodrigues.github.io/modern_R/">Modern R</a></li>
-</ul>
-<h3 id="papers">Papers</h3>
-<ul>
-<li><a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947">Ten Simple Rules for Taking Advantage of Git and GitHub</a></li>
-<li><a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285">Ten Simple Rules for Reproducible Computational Research</a></li>
-<li><a href="https://www.practicereproducibleresearch.org/#">The Practice of Reproducible Research</a></li>
-</ul>
-<h3 id="website">Website</h3>
-<ul>
-<li><a href="http://collections.plos.org/ten-simple-rules">Ten simple rules</a></li>
-<li><a href="http://www.nature.com/collections/qghhqm/pointsofsignificance">Points of significance</a></li>
-<li><a href="https://cran.r-project.org/web/views/ReproducibleResearch.html">Reproducible research</a> - CRAN Task View</li>
-<li><a href="http://ggplot2.org/">ggplot2</a></li>
-<li><a href="http://www.r-graph-gallery.com/portfolio/ggplot2-package/">ggplot2 gallery and examples</a></li>
-<li><a href="http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html">Top 50 ggplot2 Visualizations</a></li>
-<li><a href="https://www.r-bloggers.com">R-bloggers</a></li>
-<li><a href="http://ropensci.org/">Open science website</a></li>
-<li><a href="https://opensource.guide">Open-source guideline</a></li>
-<li><a href="https://www.kaggle.com/">Data science competions</a></li>
-<li><a href="https://figshare.com/articles/Letter-value_plots_Boxplots_for_large_data/4748227/1">Paper with R code</a></li>
-<li><a href="http://www.thertrader.com/2018/09/01/r-code-best-practices/">R code best pratices</a></li>
-<li><a href="https://style.tidyverse.org/">R style guide</a></li>
-<li><a href="https://wilkelab.org/SDS375/schedule.html">R visualization Claus Wilke</a></li>
-</ul>
-<h3 id="miscellaneous">Miscellaneous</h3>
-<ul>
-<li><a href="https://www.coursera.org/learn/reproducible-research">Reproducible research</a> - Coursera course</li>
-<li><a href="http://exercism.io/">Exercism</a> - Level up your programming skills</li>
-<li><a href="https://www.codewars.com/">Codewars</a> - Improve your skills by training with others on real code challenges</li>
-<li><a href="https://lgatto.github.io/beyond-bad-publishing/">Bad publishing and bullied into bad science</a></li>
-</ul>
-<h1 id="codice-di-condotta">Codice di Condotta</h1>
-<p>Ci impegniamo a fornire un ambiente accogliente e solidale per tutte le persone, indipendentemente dal background o dall’identità. Partecipando a questa comunità, i partecipanti accettano di rispettare il Codice di Condotta (CdC). Qualsiasi forma di comportamento per escludere, intimidire o causare disagio costituisce una violazione del CdC. Al fine di promuovere un ambiente di apprendimento positivo e professionale, incoraggiamo i seguenti tipi di comportamenti:</p>
-<ul>
-<li><p>Usa un linguaggio accogliente e inclusivo</p></li>
-<li><p>Sii rispettoso dei diversi punti di vista</p></li>
-<li><p>Accetta con garbo le critiche costruttive</p></li>
-<li><p>Concentrati su ciò che è meglio per la classe</p></li>
-<li><p>Mostra cortesia e rispetto verso gli altri membri della classe</p></li>
-</ul>
-<h1 id="licenza">Licenza</h1>
-<p><a href="https://www.apache.org/licenses/LICENSE-2.0.txt">Apache License 2.0</a></p>
+<hr />
+<h2 id="operazioni-base-in-r">Operazioni base in R</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<h2 id="concetto-di-variabile">Concetto di variabile</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<h2 id="concetto-di-vettore">Concetto di vettore</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<h2 id="concetto-di-data.frame">Concetto di data.frame</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<h2 id="concetto-di-tibble">Concetto di tibble</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<hr />
+<h2 id="valutazione-formativa">Valutazione formativa</h2>
+<p>Clicca sul seguente pulsante per eseguire il test formativo:</p>
+<p><a href='https://forms.gle/v3JbyCVUvEdpCAmx5' target='\_blank' class='button'>LINK</a></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

@@ -8,7 +8,7 @@ author:
     orcid_id: 0000-0001-7768-3047
     skype: marpello
 
-date: September 10, 2018
+date: october 20, 2021
 site: distill::distill_website
 ---
 
@@ -27,7 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Il Gruppo di Bioinformatica dell'Istituto per la Protezione Sostenibile delle Piante (**IBiG**) √® lieto di presentare il primo corso di introduzione ad R.
 
-<iframe width="951" height="535" src="https://www.youtube.com/embed/38bFUlxlef8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hAL6TSQS7IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 # Obiettivi del corso
@@ -67,9 +67,10 @@ Il corso prevede 6 moduli che trovate riportati qui di seguito. Ogni modulo avr√
 #### **1. [Introduzione a R e RStudio](rSconos.html)**    
 - Installazione dei software    
 - Come utilizzare RStudio    
+- Come cercare aiuto     
 
 
-#### **2. [Concetti fondamentali](concFond.html)**
+#### **2. [Concetti base](concFond.html)**
 - Operazioni base in R    
 - Concetto di variabile    
 - Concetto di vettore    
@@ -78,21 +79,18 @@ Il corso prevede 6 moduli che trovate riportati qui di seguito. Ogni modulo avr√
 
 #### **3. [Importazione/esportazione di dati](io.html)**
 
-#### **4. [Utilizzo delle funzioni in R](fx.html)**   
-- Cosa sono le funzioni di R e dei pacchetti di R    
-- Come si utilizzano    
-
-#### **5. [Trasformazione dei dati](wrangle.html)**
+#### **4. [Trasformazione dei dati](wrangle.html)**
 - Subset dei dati    
 - Creare nuove variabili    
 - Split-apply-combine    
 - Long and wide data format    
 
-#### **6. [Esplorazione grafica dei dati](plot.html)**    
+#### **5. [Esplorazione grafica dei dati](plot.html)**    
 - Importanza delle visualizzazioni grafiche (datasaurus package)    
 - Grafici base    
 - Grafici per serie temporali    
 - Multi-plots        
+- Personalizzare i grafici
 - Combine plots    
 
 

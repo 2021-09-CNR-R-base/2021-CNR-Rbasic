@@ -5,6 +5,10 @@ output:
     toc: false
 ---
 
+```{r echo = FALSE}
+# rmarkdown::render_site("concFond.Rmd")
+```
+
 ## Obiettivi formativi
 
 1. Operazioni base in R    

@@ -17,6 +17,10 @@ output:
 
 ----
 
+```{r echo = FALSE}
+# rmarkdown::render_site("concFond.Rmd")
+```
+
 ## Cos'è R
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

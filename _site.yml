@@ -15,13 +15,15 @@ navbar:
         - text: "Installazione dei software"
           href: install.html
         - text: "Introduzione a R e RStudio"
-          #href: rSconos.html
-        - text: "Le basi di R e RStudio"
-        - text: "Concetti fondamentali"
+          href: rSconos.html
+        - text: "Concetti base"
+          href: concFond.html
         - text: "Importazione/esportazione di dati"
-        - text: "Utilizzo delle funzioni in R"
+          href: io.html
         - text: "Trasformazione dei dati"
+          href: wrangle.html
         - text: "Esplorazione grafica dei dati"
+          href: plot.html
     - text: "Contatti"
 
 output: 
