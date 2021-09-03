@@ -88,8 +88,6 @@ use_panelset()
 
 .pull-left[
 
-- Operazioni base in R
-
 - Concetto di variabile
 
 - Concetto di vettore
@@ -104,7 +102,7 @@ use_panelset()
 
 class: center middle inverse
 
-### Operazioni base in R
+### Concetto di variabile
 
 ----
 

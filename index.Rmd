@@ -7,7 +7,8 @@ author:
     affiliation: IPSP-CNR, Sede di Torino
     orcid_id: 0000-0001-7768-3047
     skype: marpello
-
+  - name: Giovanni Bubici
+    affiliation: IPSP-CNR, Sede di Bari
 date: october 20, 2021
 site: distill::distill_website
 ---
@@ -62,16 +63,16 @@ Prima della lezione frontale vi verrà richiesto di completare una questionario 
 
 ## Syllabus
 
-Il corso prevede 6 moduli che trovate riportati qui di seguito. Ogni modulo avrà una pagina dedicata in cui sarà possibile trovare il link a tutti i video, gli script e le risorse per quella specifica unita didattica.
+Il corso prevede 5 moduli che trovate riportati qui di seguito. Ogni modulo avrà una pagina dedicata in cui sarà possibile trovare il link a tutti i video, gli script e le risorse per quella specifica unita didattica.
 
 #### **1. [Introduzione a R e RStudio](rSconos.html)**    
-- Installazione dei software    
-- Come utilizzare RStudio    
-- Come cercare aiuto     
+- Cos'è R    
+- Quali sono le potenzialità di R    
+- Cos'è RStudio e perchè usarlo    
+- Come funziona RStudio    
 
 
 #### **2. [Concetti base](concFond.html)**
-- Operazioni base in R    
 - Concetto di variabile    
 - Concetto di vettore    
 - Concetto di data.frame    
@@ -80,8 +81,8 @@ Il corso prevede 6 moduli che trovate riportati qui di seguito. Ogni modulo avr�
 #### **3. [Importazione/esportazione di dati](io.html)**
 
 #### **4. [Trasformazione dei dati](wrangle.html)**
-- Subset dei dati    
-- Creare nuove variabili    
+- Tidyverse
+- Select-filter-mutate
 - Split-apply-combine    
 - Long and wide data format    
 

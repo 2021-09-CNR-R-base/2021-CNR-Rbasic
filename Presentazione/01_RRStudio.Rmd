@@ -1,5 +1,5 @@
 ---
-title: "Capitolo 2: Concetti base"
+title: "Capitolo 1: Introduzione a R e RStudio"
 author: 
   - "Marco Chiapello"
 date: '`r Sys.Date()`'
@@ -84,17 +84,17 @@ use_panelset()
 # TO render: rmarkdown::render('*.Rmd', 'xaringan::moon_reader')
 ```
 
-## Capitolo 2
+## Capitolo 1
 
 .pull-left[
 
-- Concetto di variabile
+- Cos’è R
 
-- Concetto di vettore
-
-- Concetto di data.frame
-
-- Concetto di tibble
+- Quali sono le potenzialità di R
+ 
+- Cos’è RStudio e perchè usarlo
+ 
+- Come funziona RStudio
 
 ]
 
@@ -102,16 +102,17 @@ use_panelset()
 
 class: center middle inverse
 
-### Concetto di variabile
+### Cos'è R
 
 ----
 
 ---
 
-class: center middle
+layout: true
 
-.f60[DEMO]
+# Cos'è R
 
 ---
+
 
 
