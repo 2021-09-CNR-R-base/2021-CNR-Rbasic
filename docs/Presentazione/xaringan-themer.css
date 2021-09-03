@@ -56,7 +56,7 @@
   --inverse-link-color: #1381B0;
   --title-slide-background-color: #1381B0;
   --title-slide-text-color: #000000;
-  --header-background-color: #1381B0;
+  --header-background-color: #FF961C;
   --header-background-text-color: #FFFFFF;
   --primary: #1381B0;
   --secondary: #FF961C;
@@ -280,6 +280,9 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 .fl p {
   float: right;
 }
+.orange {
+  color: #FF961C;
+}
 .content-box {
   border-radius: 15px;
   overflow: hidden;
@@ -308,10 +311,18 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   font-size: 25px;
   margin: 10px;
 }
-.list2 p, .list1 ul li, .list1 ol li {
+.list2 p, .list2 ul li, .list2 ol li {
   line-height: 23px;
   font-size: 20px;
   margin: 0px;
+}
+.list3 p, .list3 ul li, .list3 ol li {
+  line-height: 18px;
+  font-size: 15px;
+  margin: 0px;
+}
+.ml20 {
+  margin-left: 20px;
 }
 .m5h4 h4 {
   margin: 5px;

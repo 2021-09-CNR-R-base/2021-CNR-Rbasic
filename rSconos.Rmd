@@ -46,6 +46,13 @@ knitr::include_graphics("./images/R.jpg")
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Risorse utili
+
+- [CRAN](https://cran.r-project.org/)    
+- [Bioconductor](http://www.bioconductor.org/)    
+- [Come scrivere un esempio riproducibile](https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html)     
+- [Rmarkdown](https://rmarkdown.rstudio.com/)
+
 ----
 
 ## Valutazione formativa
