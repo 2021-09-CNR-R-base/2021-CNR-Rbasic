@@ -5,9 +5,15 @@ output:
     toc: false
 ---
 
+```{r echo = FALSE}
+# rmarkdown::render_site("install.Rmd")
+```
+
 # Installare Slack
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Per accedere al canale del corso [clicca qui](https://join.slack.com/t/2021-cnr-r-base/shared_invite/zt-t6smt82o-xRjl8EHmM5VrQStsRKyaIg)
 
 # Installare R
 

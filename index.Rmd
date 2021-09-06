@@ -41,10 +41,6 @@ Il Gruppo di Bioinformatica dell'Istituto per la Protezione Sostenibile delle Pi
 
 1. creare visualizzazioni grafiche
 
-**Guarda il video per capire cosa imparerai a fare!**
-
-<iframe width="951" height="535" src="https://www.youtube.com/embed/38bFUlxlef8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 # Pre-requisiti
 
