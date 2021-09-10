@@ -25,7 +25,7 @@ In caso di problemi o domande non esitare a confrontarti con i tuoi colleghi, a 
 Per poter eseguire gli esercizi da RStudio installa il pacchetto "intRo.Esercizi" con i seguenti comandi:    
 \> install.packages("devtools")    
 \> install.packages("learnr")    
-\> library(devtools)
+\> library(devtools)    
 \> install_github("2021-09-CNR-R-base/intRo.Esercizi")    
 
 Formative assessments: l'obiettivo di questi esercizi è darvi la possibilità di capire i vostri progressi. Gli esercizi verranno visti solo da voi e verrà sempre data la possibilità di vedere la corretta soluzione. Non è obbligatorio fare gli esercizi, ma è ovviamente consigliato. 
@@ -44,6 +44,9 @@ knitr::include_graphics("./images/variable.jpg")
 
 <a href=images/variable.pdf>Per scaricare la mappa in pdf, clicca su questo link</a>
 
+### Risorse utili
+
+- [Style guide](http://adv-r.had.co.nz/Style.html)
 
 ## Concetto di vettore
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
