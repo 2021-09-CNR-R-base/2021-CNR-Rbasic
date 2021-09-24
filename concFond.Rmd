@@ -14,7 +14,6 @@ output:
 1. Concetto di variabile    
 1. Concetto di vettore    
 1. Concetto di data.frame    
-1. Concetto di tibble    
 
 ## In caso di necessità
 
@@ -27,6 +26,7 @@ Per poter eseguire gli esercizi da RStudio installa il pacchetto "intRo.Esercizi
 \> install.packages("learnr")    
 \> library(devtools)    
 \> install_github("2021-09-CNR-R-base/intRo.Esercizi")    
+\> learnr::run_tutorial("lezione_01", "intRo.Esercizi")
 
 Formative assessments: l'obiettivo di questi esercizi è darvi la possibilità di capire i vostri progressi. Gli esercizi verranno visti solo da voi e verrà sempre data la possibilità di vedere la corretta soluzione. Non è obbligatorio fare gli esercizi, ma è ovviamente consigliato. 
 
@@ -34,7 +34,7 @@ Formative assessments: l'obiettivo di questi esercizi è darvi la possibilità d
 
 ## Concetto di variabile
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sC5OBcn-JKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Variabile concept map
 
@@ -49,7 +49,22 @@ knitr::include_graphics("./images/variable.jpg")
 - [Style guide](http://adv-r.had.co.nz/Style.html)
 
 ## Concetto di vettore
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Parte I
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/82zTrHzzoI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Parte II
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TMloRNTerVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Parte III
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SbmDUqh9txc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Parte IV
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fHMP1oMeuRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Vettore concept map
 
@@ -61,7 +76,24 @@ knitr::include_graphics("./images/vector.jpg")
 
 ## Concetto di data.frame    
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Parte I
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rzk4FeZ4adE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Parte II
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fZnvi7Lq5no" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Parte III
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yjYF_WuXqBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Link to dowload the lesson dataset
+
+```{r downData}
+download.file(url = "https://ndownloader.figshare.com/files/2292169",
+              destfile = "data_raw/portal_data_joined.csv")
+```
 
 ### data.frame concept map
 
@@ -70,34 +102,4 @@ knitr::include_graphics("./images/Dataframe.jpg")
 ```
 
 <a href=images/Dataframe.pdf>Per scaricare la mappa in pdf, clicca su questo link</a>
-
-## Concetto di tibble    
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Tibble concept map
-
-```{r, include=TRUE, fig.align="center", echo=FALSE}
-knitr::include_graphics("./images/tibble.jpg")
-```
-
-<a href=images/tibble.pdf>Per scaricare la mappa in pdf, clicca su questo link</a>
-
-### Risorse addizionali
-
-- [Tibble in tidyverse](https://tibble.tidyverse.org/)     
-- [Tibble in CRAN](https://cran.r-project.org/web/packages/tibble/vignettes/tibble.html)    
-- [Tibble in r4ds](https://r4ds.had.co.nz/tibbles.html)    
-
-----
-
-## Summative assessment
-
-Da RStudio installa il pacchetto "intRo.Esercizi" con i seguenti comandi:    
-\> install.packages("devtools")    
-\> install.packages("learnr")    
-\> devtools::install_github("2021-09-CNR-R-base/intRo.Esercizi")    
-\> learnr::run_tutorial("lezione_02", package = "intRo.Esercizi")
-
-Esegui tutti gli esercizi e sottometti i risultati come spiegato nell'ultima pagina del test.
 

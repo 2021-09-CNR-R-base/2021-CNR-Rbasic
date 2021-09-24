@@ -1,0 +1,51 @@
+---
+title: "Esplorazione grafica dei dati"
+output:
+  distill::distill_article:
+    toc: false
+---
+
+```{r echo = FALSE}
+# rmarkdown::render_site("plot.Rmd")
+```
+
+## Obiettivi formativi
+
+1. Capire l'importanza delle visualizzazioni     
+1. Comprendere la filosofia dietro la grammar of grafics    
+1. Produrre grafici a dispersione, boxplot e serie temporali    
+1. Applicare il faceting    
+1. Modificare l'estetica del grafico
+1. Costruire pannelli di più figure    
+
+## In caso di necessità
+
+In caso di problemi o domande non esitare a confrontarti con i tuoi colleghi, a scrivere sul canale [Help](https://2021-cnr-r-base.slack.com/archives/C02DE4EB1L4) di Slack o a me in [privato](https://2021-cnr-r-base.slack.com/archives/D027RRHFYSX).
+
+## Formative assessments
+
+Per poter eseguire gli esercizi da RStudio installa il pacchetto "intRo.Esercizi" con i seguenti comandi:    
+\> install.packages("devtools")    
+\> install.packages("learnr")    
+\> library(devtools)    
+\> install_github("2021-09-CNR-R-base/intRo.Esercizi")    
+\> learnr::run_tutorial("lezione_01", "intRo.Esercizi")
+
+Formative assessments: l'obiettivo di questi esercizi è darvi la possibilità di capire i vostri progressi. Gli esercizi verranno visti solo da voi e verrà sempre data la possibilità di vedere la corretta soluzione. Non è obbligatorio fare gli esercizi, ma è ovviamente consigliato. 
+
+----
+
+
+## Esplorazione grafica dei dati
+
+### Parte I - Introduzione
+
+
+
+
+### Risorse addizionali
+
+- [ggplot2](https://ggplot2.tidyverse.org/)    
+- [ggplor2 extentions](https://exts.ggplot2.tidyverse.org/gallery/)    
+
+

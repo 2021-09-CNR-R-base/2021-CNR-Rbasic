@@ -86,26 +86,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>intRo: Introduzione a R e RStudio</title>
+  <title>intRo: Manipolazione dei dati</title>
 
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="intRo: Introduzione a R e RStudio"/>
+  <meta property="og:title" content="intRo: Manipolazione dei dati"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="intRo"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="intRo: Introduzione a R e RStudio"/>
+  <meta property="twitter:title" content="intRo: Manipolazione dei dati"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","output"]}},"value":[{"type":"character","attributes":{},"value":["Introduzione a R e RStudio"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","output"]}},"value":[{"type":"character","attributes":{},"value":["Manipolazione dei dati"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2149,7 +2149,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Introduzione a R e RStudio","authors":[]}
+{"title":"Manipolazione dei dati","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2189,7 +2189,7 @@ Moduli
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Introduzione a R e RStudio</h1>
+<h1>Manipolazione dei dati</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2197,47 +2197,93 @@ Moduli
 
 
 <div class="d-article">
-<h2 id="obiettivi-formativi">Obiettivi formativi</h2>
-<ol type="1">
-<li><p>Cos’è R</p></li>
-<li><p>Quali sono le potenzialità di R</p></li>
-<li><p>Cos’è RStudio e perchè usarlo</p></li>
-<li><p>Come funziona RStudio</p></li>
-</ol>
-<h2 id="in-caso-di-necessità">In caso di necessità</h2>
-<p>In caso di problemi o domande non esitare a confrontarti con i tuoi colleghi, a scrivere sul canale <a href="https://2021-cnr-r-base.slack.com/archives/C02DE4EB1L4">Help</a> di Slack o a me in <a href="https://2021-cnr-r-base.slack.com/archives/D027RRHFYSX">privato</a>.</p>
-<hr />
 <div class="layout-chunk" data-layout="l-body">
 
 </div>
-<h2 id="cosè-r">Cos’è R</h2>
-<iframe width="918" height="574" src="https://www.youtube.com/embed/iqGTw4TeIc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-<h3 id="r-concept-map">R concept map</h3>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/R.jpg" width="743" style="display: block; margin: auto;" /></p>
-</div>
-<p><a href=images/R.pdf>Per scaricare la mappa in pdf, clicca su questo link</a></p>
-<h2 id="quali-sono-le-potenzialità-di-r">Quali sono le potenzialità di R</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IeBJ5B-1FXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-<h2 id="cosè-rstudio-e-come-funziona">Cos’è RStudio e come funziona</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-<h2 id="risorse-utili">Risorse utili</h2>
+<h2 id="obiettivi-formativi">Obiettivi formativi</h2>
+<ol type="1">
+<li>Descrizione del metapacchetto tidyverse<br />
+</li>
+<li>Descrizione e utilizzo delle 5 funzioni principali di dplyr
 <ul>
-<li><a href="https://cran.r-project.org/">CRAN</a><br />
+<li>Select<br />
 </li>
-<li><a href="http://www.bioconductor.org/">Bioconductor</a><br />
+<li>Filter<br />
 </li>
-<li><a href="https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html">Come scrivere un esempio riproducibile</a><br />
+<li>Mutate<br />
 </li>
-<li><a href="https://rmarkdown.rstudio.com/">Rmarkdown</a></li>
-</ul>
+<li>group_by<br />
+</li>
+<li>Summarise<br />
+</li>
+</ul></li>
+<li>Descrizione e utilizzo delle funzioni pivot_longer e pivot_wider del pacchetto tidyr<br />
+</li>
+<li>Esportazione dei dati</li>
+</ol>
+<h2 id="in-caso-di-necessità">In caso di necessità</h2>
+<p>In caso di problemi o domande non esitare a confrontarti con i tuoi colleghi, a scrivere sul canale <a href="https://2021-cnr-r-base.slack.com/archives/C02DE4EB1L4">Help</a> di Slack o a me in <a href="https://2021-cnr-r-base.slack.com/archives/D027RRHFYSX">privato</a>.</p>
+<h2 id="formative-assessments">Formative assessments</h2>
+<p>Per poter eseguire gli esercizi da RStudio installa il pacchetto “intRo.Esercizi” con i seguenti comandi:<br />
+&gt; install.packages(“devtools”)<br />
+&gt; install.packages(“learnr”)<br />
+&gt; library(devtools)<br />
+&gt; install_github(“2021-09-CNR-R-base/intRo.Esercizi”)<br />
+&gt; learnr::run_tutorial(“lezione_01”, “intRo.Esercizi”)</p>
+<p>Formative assessments: l’obiettivo di questi esercizi è darvi la possibilità di capire i vostri progressi. Gli esercizi verranno visti solo da voi e verrà sempre data la possibilità di vedere la corretta soluzione. Non è obbligatorio fare gli esercizi, ma è ovviamente consigliato.</p>
 <hr />
-<h2 id="valutazione-formativa">Valutazione formativa</h2>
-<p>Clicca sul seguente pulsante per eseguire il test formativo:</p>
-<p><a href='https://forms.gle/v3JbyCVUvEdpCAmx5' target='\_blank' class='button'>LINK</a></p>
+<h2 id="manipolazione-dei-dati">Manipolazione dei dati</h2>
+<h3 id="parte-i---introduzione">Parte I - Introduzione</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pdcbAExpovw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<h3 id="parte-ii---select">Parte II - Select</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y3wZeVFx6nw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<h3 id="parte-iii---filter">Parte III - Filter</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3T5uM9BnAqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<h3 id="parte-iv---pipe-operator">Parte IV - Pipe operator</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oTVxiVWB3r8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<h3 id="parte-v---mutate">Parte V - Mutate</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KaPfA5GmUwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<h3 id="parte-vi---group_by-e-summarise">Parte VI - group_by e Summarise</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W78cbpW1Fsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<h3 id="tibble-concept-map">Tibble concept map</h3>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/tibble.jpg" width="743" style="display: block; margin: auto;" /></p>
+</div>
+<p><a href=images/tibble.pdf>Per scaricare la mappa in pdf, clicca su questo link</a></p>
+<h3 id="concept-maps">Concept maps</h3>
+<ul>
+<li><a href="https://github.com/rstudio/concept-maps#dplyr">dplyr</a><br />
+</li>
+<li><a href="https://github.com/rstudio/concept-maps#select">select</a><br />
+</li>
+<li><a href="https://github.com/rstudio/concept-maps#filter">filter</a><br />
+</li>
+<li><a href="https://github.com/rstudio/concept-maps#mutate">mutate</a><br />
+</li>
+<li><a href="https://github.com/rstudio/concept-maps#group_by-and-summarize">group_by, summarize</a><br />
+</li>
+<li><a href="https://github.com/rstudio/concept-maps#pivoting">pivoting</a></li>
+</ul>
+<h3 id="risorse-addizionali">Risorse addizionali</h3>
+<ul>
+<li><a href="https://tibble.tidyverse.org/">Tibble in tidyverse</a><br />
+</li>
+<li><a href="https://cran.r-project.org/web/packages/tibble/vignettes/tibble.html">Tibble in CRAN</a><br />
+</li>
+<li><a href="https://r4ds.had.co.nz/tibbles.html">Tibble in r4ds</a><br />
+</li>
+<li><a href="https://www.rstudio.com/resources/cheatsheets/">Cheatsheets</a><br />
+</li>
+<li><a href="https://www.tidyverse.org/">Tidyverse</a><br />
+</li>
+<li><a href="https://vita.had.co.nz/papers/tidy-data.pdf">Tidy data paper</a></li>
+</ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

@@ -81,7 +81,7 @@ xaringanExtra::use_logo(
 )
 use_search(show_icon = FALSE)
 use_panelset()
-# TO render: rmarkdown::render('*.Rmd', 'xaringan::moon_reader')
+# TO render: rmarkdown::render('02_ConBase.Rmd', 'xaringan::moon_reader')
 ```
 
 ## Capitolo 2
@@ -113,5 +113,47 @@ class: center middle
 .f60[DEMO]
 
 ---
+
+class: center middle inverse
+
+### Concetto di vettore
+
+----
+
+---
+
+class: center middle
+
+.f60[DEMO]
+
+
+---
+
+class: center middle inverse
+
+### Concetto di data.frame
+
+----
+
+---
+
+class: center middle
+
+.f60[DEMO]
+
+
+---
+
+class: center middle inverse
+
+### Manipolazione dei dati
+
+----
+
+---
+
+class: center middle
+
+.f60[DEMO]
 
 

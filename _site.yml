@@ -18,9 +18,7 @@ navbar:
           href: rSconos.html
         - text: "Concetti base"
           href: concFond.html
-        - text: "Importazione/esportazione di dati"
-          href: io.html
-        - text: "Trasformazione dei dati"
+        - text: "Manipolazione dei dati"
           href: wrangle.html
         - text: "Esplorazione grafica dei dati"
           href: plot.html
