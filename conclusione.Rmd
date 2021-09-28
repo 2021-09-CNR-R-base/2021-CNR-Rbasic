@@ -1,0 +1,37 @@
+---
+title: "Conclusione"
+output:
+  distill::distill_article:
+    toc: false
+---
+
+```{r echo = FALSE}
+# rmarkdown::render_site("conclusione.Rmd")
+```
+
+## In caso di necessità
+
+In caso di problemi o domande non esitare a confrontarti con i tuoi colleghi, a scrivere sul canale [Help](https://2021-cnr-r-base.slack.com/archives/C02DE4EB1L4) di Slack o a me in [privato](https://2021-cnr-r-base.slack.com/archives/D027RRHFYSX).
+
+----
+
+
+## Conclusione della parte videoregistrata
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qxqff_B8azM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+----
+
+## Prenota la data della lezione in presenza virtuale
+
+Le lezioni in presenza virtuale si terranno la prima settimana di novembre dalle 9 alle 12:30.    
+Ogni partecipante al corso può iscriversi ad una sessione online tra le cinque disponibili.
+
+Ogni sessione può ospitare un massimo di 12 persone. 
+
+Per prenotare la tua lezione usa i link sottostanti.     
+La prenotazione si basa sul principio: first come, first served
+
+Per prenotarsi seguire il seguente [link](https://www.eventbrite.it/x/biglietti-intro-corso-in-presenza-virtuale-180911650617) e scegliere la data favorita. 
+Se non ci fossero più posti sieti invitati a scegliere un giorno diverso. 

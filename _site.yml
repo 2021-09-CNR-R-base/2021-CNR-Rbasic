@@ -22,7 +22,10 @@ navbar:
           href: wrangle.html
         - text: "Esplorazione grafica dei dati"
           href: plot.html
+        - text: "Conclusione"
+          href: conclusione.html
     - text: "Contatti"
+      href: contatti.html
 
 output: 
   distill::distill_article:

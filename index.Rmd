@@ -74,15 +74,13 @@ Il corso prevede 5 moduli che trovate riportati qui di seguito. Ogni modulo avr√
 - Concetto di data.frame    
 - Concetto di tibble    
 
-#### **3. [Importazione/esportazione di dati](io.html)**
-
-#### **4. [Trasformazione dei dati](wrangle.html)**
+#### **3. [Trasformazione dei dati](wrangle.html)**
 - Tidyverse
 - Select-filter-mutate
 - Split-apply-combine    
 - Long and wide data format    
 
-#### **5. [Esplorazione grafica dei dati](plot.html)**    
+#### **4. [Esplorazione grafica dei dati](plot.html)**    
 - Importanza delle visualizzazioni grafiche (datasaurus package)    
 - Grafici base    
 - Grafici per serie temporali    
@@ -103,7 +101,7 @@ In preparazione alle lezioni frontali, dovrete installare sul vostro computer du
 
 1. [RStudio](https://www.rstudio.com/): RStudio √® un ambiente di sviluppo integrato per R
 
-o in alternativa creare un account su [RStudio Cloud](https://rstudio.cloud/plans/free)
+In alternativa creare un account su [RStudio Cloud](https://rstudio.cloud/plans/free)
 
 # Risorse utili
 

@@ -44,10 +44,40 @@ Formative assessments: l'obiettivo di questi esercizi è darvi la possibilità d
 
 ### Parte II - Come impostare ggplot
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GXCvpSj6jQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Parte III - Modificare il plot 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZzkDgwVisr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Parte IV - Boxplot
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TQgddWBm9a8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Parte V - Serie temporali
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t7Tn5fC1zd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Parte VI - Faceting
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hucPB4ZOXao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Parte VII - Customization
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7XmbPlPs1Fs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Parte VIII - Combine plots
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tPKboIkmCvA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Parte IX - ggsave
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8PU-PS5idWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Risorse addizionali
 
 - [ggplot2](https://ggplot2.tidyverse.org/)    
 - [ggplor2 extentions](https://exts.ggplot2.tidyverse.org/gallery/)    
-
+- [ggplot2 video (Part I)](https://youtu.be/h29g21z0a68)    
+- [ggplot2 video (Part II)](https://youtu.be/0m4yywqNPVY)    
 

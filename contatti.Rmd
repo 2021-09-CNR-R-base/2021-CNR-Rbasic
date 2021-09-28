@@ -1,0 +1,24 @@
+---
+title: "Contatti"
+output:
+  distill::distill_article:
+    toc: false
+---
+
+```{r echo = FALSE}
+# rmarkdown::render_site("contatti.Rmd")
+```
+
+## Marco Chiapello
+
+- [Slack](https://2021-cnr-r-base.slack.com/archives/D027RRHFYSX)
+
+- Email: marco.chiapello (at) ipsp.cnr.it
+
+- Skype: marpello
+
+- Twitter: marpello1980
+
+## Giovanni Bubici
+
+- Email: giovanni.bubici (at) ipsp.cnr.it
