@@ -67,12 +67,14 @@ Formative assessments: l'obiettivo di questi esercizi è darvi la possibilità d
 
 ### Parte VII - pivot_longer e pivot_wider
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1oqgBnoNQHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jKlp4l59JBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### Parte VIII - Salvare i dati
 
-- csv/excel
-- rds
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jH6WYi4y_04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Tibble concept map
 

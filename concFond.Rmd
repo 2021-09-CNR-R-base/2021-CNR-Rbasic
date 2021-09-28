@@ -92,7 +92,7 @@ knitr::include_graphics("./images/vector.jpg")
 
 ```{r downData}
 download.file(url = "https://ndownloader.figshare.com/files/2292169",
-              destfile = "data_raw/portal_data_joined.csv")
+              destfile = "data/portal_data_joined.csv")
 ```
 
 ### data.frame concept map

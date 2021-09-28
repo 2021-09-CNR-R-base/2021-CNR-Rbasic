@@ -40,7 +40,9 @@ Formative assessments: l'obiettivo di questi esercizi è darvi la possibilità d
 
 ### Parte I - Introduzione
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NFxQVASyxKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Parte II - Come impostare ggplot
 
 
 ### Risorse addizionali
