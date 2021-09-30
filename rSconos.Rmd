@@ -22,10 +22,9 @@ In caso di problemi o domande non esitare a confrontarti con i tuoi colleghi, a 
 ## Formative assessments
 
 Per poter eseguire gli esercizi da RStudio installa il pacchetto "intRo.Esercizi" con i seguenti comandi:    
-\> install.packages("devtools")    
-\> install.packages("learnr")    
+\> install.packages(c("devtools", "learnr"), dependencies = TRUE)    
 \> library(devtools)    
-\> install_github("2021-09-CNR-R-base/intRo.Esercizi")    
+\> install_github("2021-09-CNR-R-base/intRo.Esercizi", dependencies = TRUE)    
 \> learnr::run_tutorial("lezione_01", "intRo.Esercizi")
 
 Formative assessments: l'obiettivo di questi esercizi è darvi la possibilità di capire i vostri progressi. Gli esercizi verranno visti solo da voi e verrà sempre data la possibilità di vedere la corretta soluzione. Non è obbligatorio fare gli esercizi, ma è ovviamente consigliato. 

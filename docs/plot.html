@@ -2218,10 +2218,9 @@ Moduli
 <p>In caso di problemi o domande non esitare a confrontarti con i tuoi colleghi, a scrivere sul canale <a href="https://2021-cnr-r-base.slack.com/archives/C02DE4EB1L4">Help</a> di Slack o a me in <a href="https://2021-cnr-r-base.slack.com/archives/D027RRHFYSX">privato</a>.</p>
 <h2 id="formative-assessments">Formative assessments</h2>
 <p>Per poter eseguire gli esercizi da RStudio installa il pacchetto “intRo.Esercizi” con i seguenti comandi:<br />
-&gt; install.packages(“devtools”)<br />
-&gt; install.packages(“learnr”)<br />
+&gt; install.packages(c(“devtools”, “learnr”), dependencies = TRUE)<br />
 &gt; library(devtools)<br />
-&gt; install_github(“2021-09-CNR-R-base/intRo.Esercizi”)<br />
+&gt; install_github(“2021-09-CNR-R-base/intRo.Esercizi”, dependencies = TRUE)<br />
 &gt; learnr::run_tutorial(“lezione_01”, “intRo.Esercizi”)</p>
 <p>Formative assessments: l’obiettivo di questi esercizi è darvi la possibilità di capire i vostri progressi. Gli esercizi verranno visti solo da voi e verrà sempre data la possibilità di vedere la corretta soluzione. Non è obbligatorio fare gli esercizi, ma è ovviamente consigliato.</p>
 <hr />
