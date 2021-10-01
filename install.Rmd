@@ -11,21 +11,31 @@ output:
 
 # Installare Slack
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Download link](https://slack.com/intl/it-it/help/categories/360000049043-Primi-passi)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uanTyAPrE-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Per accedere al canale del corso [clicca qui](https://join.slack.com/t/2021-cnr-r-base/shared_invite/zt-t6smt82o-xRjl8EHmM5VrQStsRKyaIg)
 
 # Installare R
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Download link](https://cran.r-project.org/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_3dMzffhzho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Installare RStudio
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Download link](https://www.rstudio.com/products/rstudio/download/#download)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G6gC7cNyK1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # RStudio Cloud
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[RStudio Cloud link](https://rstudio.cloud/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lGF2qHFoVZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+# [Feedback](https://forms.gle/54BFGRELE2kC8CZg9)
 
+Clicca sul [link](https://forms.gle/54BFGRELE2kC8CZg9) per inviarmi il tuo fedback 

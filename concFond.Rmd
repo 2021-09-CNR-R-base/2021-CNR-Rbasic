@@ -102,3 +102,4 @@ knitr::include_graphics("./images/Dataframe.jpg")
 
 <a href=images/Dataframe.pdf>Per scaricare la mappa in pdf, clicca su questo link</a>
 
+# [Feedback](https://forms.gle/CRs1igiq517BmVK28)

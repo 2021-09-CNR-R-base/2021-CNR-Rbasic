@@ -66,9 +66,4 @@ knitr::include_graphics("./images/R.jpg")
 
 ----
 
-## Valutazione formativa
-
-Clicca sul seguente pulsante per eseguire il test formativo:
-
-<a href='https://forms.gle/v3JbyCVUvEdpCAmx5' target='\_blank' class='button'>LINK</a>
-
+# [Feedbacks](https://forms.gle/8FtjvxkqY4ijJtf7A)
