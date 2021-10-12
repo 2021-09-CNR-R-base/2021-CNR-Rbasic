@@ -19,18 +19,6 @@ output:
 
 In caso di problemi o domande non esitare a confrontarti con i tuoi colleghi, a scrivere sul canale [Help](https://2021-cnr-r-base.slack.com/archives/C02DE4EB1L4) di Slack o a me in [privato](https://2021-cnr-r-base.slack.com/archives/D027RRHFYSX).
 
-## Formative assessments
-
-Per poter eseguire gli esercizi da RStudio installa il pacchetto "intRo.Esercizi" con i seguenti comandi:    
-\> install.packages(c("devtools", "learnr"), dependencies = TRUE)    
-\> library(devtools)    
-\> install_github("2021-09-CNR-R-base/intRo.Esercizi", dependencies = TRUE)    
-\> learnr::run_tutorial("lezione_01", "intRo.Esercizi")
-
-Formative assessments: l'obiettivo di questi esercizi è darvi la possibilità di capire i vostri progressi. Gli esercizi verranno visti solo da voi e verrà sempre data la possibilità di vedere la corretta soluzione. Non è obbligatorio fare gli esercizi, ma è ovviamente consigliato. 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6jKCV4bxDcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ----
 
 ```{r echo = FALSE}
@@ -55,7 +43,13 @@ knitr::include_graphics("./images/R.jpg")
 
 ## Cos'è RStudio e come funziona
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20P3u3c_1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4rUHmIzTt8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Formative assessments
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6jKCV4bxDcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Risorse utili
 
