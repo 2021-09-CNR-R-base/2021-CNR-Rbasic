@@ -1,0 +1,55 @@
+=> Controllare che tutti vedano e sentano
+=> Giro di presentazioni
+
+=> Premettere che questa sarà una chiacchierata
+
+=> DOMANDE?
+
+=> Per cosa pensate di dover usare R
+
+
+1. Load tidyverse
+2. Download data
+3. Descrizione del dataset
+4. SELECT
+  - gene, sample, tissue, expression
+  - remove columns
+  - select with helper functions
+5. FILTER
+  - sex == "Male"
+  - sex == "Male" & infection == "NonInfected"
+  - Cosa volete filtrare?
+    - Valori compresi tra
+    - Valori higher or lower
+    - Subset di geni (create lista e usare operatore %in%)
+6. Combine FILTER e SELECT con il pipe operator
+=> Challange: subset with genes higher than 50000, male mice, time 0, and retain only the columns gene, sample, time, expression and age
+7. MUTATE
+  - Update/create a new column time to hours: mutate(time_hours = time * 24)
+  - mutate(time_hours = time * 24, time_mn = time_hours * 60)
+7. Gruop_by/summarise
+  - group_by(gene) %>% summarize(mean_expression = mean(expression))
+  - summarise su diverse colonne
+  - arrange
+  - counting (long and short format)
+8. Pivoting
+- rna_wide <- rna_with_missing_values %>%
+  pivot_wider(names_from = sample,
+              values_from = expression,
+              values_fill = 0)
+  - rna_long <- rna_wide %>%
+    pivot_longer(cols = -gene,
+                 names_to = "sample",
+                 values_to = "expression",
+                 )
+
+
+
+rna %>%
+  mutate(expression_log = log(expression)) %>%
+  group_by(gene, time) %>%
+  summarize(mean_exp = mean(expression_log)) %>%
+  pivot_wider(names_from = time,
+              values_from = mean_exp) %>%
+  mutate(time_8_vs_0 = `8` - `0`, time_4_vs_0 = `4` - `0`) %>%
+  select(gene, time_8_vs_0, time_4_vs_0)
