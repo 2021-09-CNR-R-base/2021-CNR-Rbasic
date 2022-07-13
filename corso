@@ -7,6 +7,11 @@
 
 => Per cosa pensate di dover usare R
 
+Cosa preferite fare oggi:
+  - Carichiamo un dataset e proviamo a modificarlo e disegnare plots
+  - Qualcuno ha un dataset da provare d usare
+  - Qualcuno ha un'immagine per un articolo che non sa come create
+  - Prendiamo il codice di un'immagine ed esaminiamolo
 
 1. Load tidyverse
 2. Download data
@@ -33,15 +38,19 @@
   - arrange
   - counting (long and short format)
 8. Pivoting
-- rna_wide <- rna_with_missing_values %>%
+- rna_exp <- rna %>%
+  select(gene, sample, expression)
+
+- rna_wide <- rna_exps %>%
   pivot_wider(names_from = sample,
               values_from = expression,
               values_fill = 0)
   - rna_long <- rna_wide %>%
     pivot_longer(cols = -gene,
                  names_to = "sample",
-                 values_to = "expression",
+                 values_to = "expression"
                  )
+
 
 
 
@@ -53,3 +62,12 @@ rna %>%
               values_from = mean_exp) %>%
   mutate(time_8_vs_0 = `8` - `0`, time_4_vs_0 = `4` - `0`) %>%
   select(gene, time_8_vs_0, time_4_vs_0)
+
+
+  rna_fc <- rna %>% select(gene, time,
+                           gene_biotype, expression_log) %>%
+    group_by(gene, time, gene_biotype) %>%
+    summarize(mean_exp = mean(expression_log)) %>%
+    pivot_wider(names_from = time,
+                values_from = mean_exp) %>%
+    mutate(time_8_vs_0 = `8` - `0`, time_4_vs_0 = `4` - `0`)
